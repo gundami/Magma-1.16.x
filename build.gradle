@@ -291,8 +291,8 @@ project(':forge') {
         MANIFESTS = [
                 '/'                                         : [
                         'Timestamp' : new Date().format("yyyy-MM-dd'T'HH:mm:ssZ"),
-                        #'GitCommit' : grgit.head().abbreviatedId,
-                        #'Git-Branch': grgit.branch.current().getName()
+                        //'GitCommit' : grgit.head().abbreviatedId,
+                        //'Git-Branch': grgit.branch.current().getName()
                 ] as LinkedHashMap,
                 'net/minecraftforge/versions/forge/'        : [
                         'Specification-Title'   : 'Forge',
